@@ -1,0 +1,30 @@
+Python Day 1
+
+https://www.python.org/
+
+Python was created in the early 1990s
+
+Python is a popular programming language.
+Python can be used on a server to create web applications.
+
+Python is open source.
+
+Don't have to buy a licenses. Free of cost. Does not need any proprietor. Anyone can use it and anyone can contribut on this platform.
+
+Python is an interpreted high-level general-purpose programming language.
+
+-------------------------------------------------
+
+licenses link
+https://docs.python.org/3/license.html
+
+The Python Package Index (PyPI) - You can find project and etc
+https://pypi.org/
+
+-------------------------------------------------
+
+Part 1 - Hello world 
+Part 2 - Data Type
+PArt 3 - 
+
+

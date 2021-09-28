@@ -1,0 +1,45 @@
+# Part1 - First program
+print("Hello world")
+
+# Part2 - Data Type
+a = 100
+b = 200.10
+name = "Kishor Ramani"
+value = True
+
+print(type(a))
+print(type(b))
+print(type(name))
+print(type(value))
+
+c = 100.0	# It's a float value not int
+print(type(c))
+
+d = 'A'     # There are no data type like character, You can use Single or Double Quotation Marks
+print(type(d))
+
+e = 22/7    # It's automatically divided and converted into float value
+print(type(e))
+
+#f = Kishor	# NameError 
+#print(type(f))      # When we get error in any line of code then remaining code is not execute
+
+g = "What's inside"     
+h = 'What\'s inside'      # We need to use Escape character
+print(g)
+print(h)
+
+i = "'What's there for dinner?'"
+print(i)
+
+# Part3 - Aerithmatic operator
+x = 9
+y = 5
+
+print(x + y)    # Plus
+print(x - y)    # Minus
+print(x * y)    # Multiplication
+print(x / y)    # Divide
+
+print(x // y)   # (9/5 = 1)
+print(x % y)    # Modulo 
