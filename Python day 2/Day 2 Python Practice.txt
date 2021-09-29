@@ -1,0 +1,94 @@
+# Python Day2
+# Part4 - List
+names = ["Kishor", "Kalpesh", "Kajal"]
+print(names)
+
+print("--------------------------")
+
+myList = ["Name", 100, True, 100.50, "Name"]    # versetility of variable, Python is case sensitive so ture is not working, True working fine
+print(myList)
+
+print("--------------------------")
+
+# Add new item in list
+myList.append("Kishor")
+print(myList)
+
+print("--------------------------")
+
+# indexing
+print(myList[0])
+print(myList[1])
+print(myList[2])
+print(myList[3])
+print(myList[4])
+print(myList[5])
+#print(myList[6])    # IndexError: list index out of range
+
+print("--------------------------")
+
+# Add item in 3rd position
+myList.insert(3, "Ramani")
+print(myList)
+
+print("--------------------------")
+
+myList.insert(15, "70")     # If we add item outside of length of list then it's added in last
+print(myList)
+
+print("--------------------------")
+
+print(myList[-1])       # If we want last index or second last index then we can get it by -1, -2 index
+print(myList[-2])
+print(myList[-3])
+
+print("--------------------------")
+
+# pop - delete last element from the list
+myList.pop()    # It's delete last element
+print(myList)
+
+print("--------------------------")
+
+# remove
+myList.remove("Name")   # Remove any element from the list
+print(myList)
+
+print("--------------------------")
+
+# remove at index 1
+myList.remove(myList[1])
+print(myList)
+
+# Part5 - Tuples
+print("-------------Tuples-------------")
+
+# Part5 - Tuples
+numbers = (100, 7, 89, 900, 5.2, 99.75, 100)  # It's immutable - Means unchangable, It's Ordered - means new value will be added in last
+print(numbers)
+
+print("--------------------------")
+
+# Add new item in Tuples
+#numbers.append(5.2)
+#print(numbers)      # 'tuple' object has no attribute 'append'
+
+# Part6 - Dictionaries
+print("------------Dictionaries--------------")
+
+# Part6 - Dictionaries
+personDetails = {"name" : "Kishor", "designation" : "Sr. Engineer", "Location" : "Surat"}     # It's combination of [key colon value] - [key colon value]
+print(personDetails)
+
+print("--------------------------")
+
+# get value of "name"
+print(personDetails["name"])
+
+print("--------------------------")
+
+# Add new key value pair in Dictionaries
+personDetails["AreaOfInterest"] = "Android Development"
+print(personDetails)
+
+print("--------------------------")
