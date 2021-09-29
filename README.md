@@ -26,13 +26,13 @@ Don't have to buy a licenses. Free of cost. Does not need any proprietor. Anyone
 
 Python is an interpreted high-level general-purpose programming language.
 
--------------------------------------------------
-
 licenses link
 https://docs.python.org/3/license.html
 
 The Python Package Index (PyPI) - You can find project and etc
 https://pypi.org/
+
+-------------------------------------------------
 
 Day 2 Learn -
 Part 4 - List
