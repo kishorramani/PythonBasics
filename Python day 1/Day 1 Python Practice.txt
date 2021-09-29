@@ -1,6 +1,8 @@
 # Part1 - First program
 print("Hello world")
 
+print("------------Data Type--------------")
+
 # Part2 - Data Type
 a = 100
 b = 200.10
@@ -12,14 +14,22 @@ print(type(b))
 print(type(name))
 print(type(value))
 
+print("--------------------------")
+
 c = 100.0	# It's a float value not int
 print(type(c))
+
+print("--------------------------")
 
 d = 'A'     # There are no data type like character, You can use Single or Double Quotation Marks
 print(type(d))
 
+print("--------------------------")
+
 e = 22/7    # It's automatically divided and converted into float value
 print(type(e))
+
+print("--------------------------")
 
 #f = Kishor	# NameError 
 #print(type(f))      # When we get error in any line of code then remaining code is not execute
@@ -32,8 +42,10 @@ print(h)
 i = "'What's there for dinner?'"
 print(i)
 
+print("-----------Aerithmatic operator---------------")
+
 # Part3 - Aerithmatic operator
-x = 9
+x = 2
 y = 5
 
 print(x + y)    # Plus
@@ -41,5 +53,17 @@ print(x - y)    # Minus
 print(x * y)    # Multiplication
 print(x / y)    # Divide
 
-print(x // y)   # (9/5 = 1)
+print("--------------------------")
+
+print(x // y)   # (2/5 = 0.4) Quotient in division 
 print(x % y)    # Modulo 
+print(x ** y)   # exponential operator 2 raise to 5
+
+print("-------------comparison operator-------------")
+
+print(x < y)        # output gives boolean value
+print(x > y)
+print(x <= y)
+print(x >= y)
+print(x == y)
+print(x != y)
