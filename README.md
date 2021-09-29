@@ -9,9 +9,9 @@ Part 5 - Tuples,
 Part 6 - Dictionaries,
 
 Day 1 Learn -
-Part 1 - Hello world 
-Part 2 - Data Type 
-Part 3 - Aerithmatic operator
+Part 1 - Hello world,
+Part 2 - Data Type,
+Part 3 - Aerithmatic operator,
 
 https://www.python.org/
 
@@ -35,9 +35,9 @@ https://pypi.org/
 -------------------------------------------------
 
 Day 2 Learn -
-Part 4 - List
-Part 5 - Tuples
-Part 6 - Dictionaries
+Part 4 - List,
+Part 5 - Tuples,
+Part 6 - Dictionaries,
 
 Learn python from this site
 https://www.w3schools.com/python/default.asp
