@@ -1,0 +1,59 @@
+# Python Day3
+x = 40000       # Price of some things
+
+# Our budget is 50000
+if(x > 50000):  
+    print("Price is exceeding")
+else:
+    print("Price is in budget")
+    
+print("------------if and elif, nested if--------------")
+# if and elif, nested if
+a = 300
+b = 400
+
+if(a > b):
+    print("a is greater than b")
+elif(a < b):
+    print("a is less than b")
+    if(a == 200):
+        print("a is 200")
+    else: 
+        print("a is not 200")
+else: 
+    print("a is equal to b")
+    
+print("-------------while-------------")
+
+# While loop - condition loop (We provide condition here)
+i = 1
+while(i < 5):
+    print("double of", i , "is: ", i * 2)
+    i = i + 1
+    
+print("--------------------------")
+
+j = 1
+while(j < 5):
+    print(j, "Raise to 3 is: ", j ** 3)     # exponential operator
+    j = j + 1
+    print("j is increment to 1")    # This print is in loop
+print("Bye")    # This print is outside of loop
+
+print("-------------for loop-------------")
+
+# For loop - counting loop (We can get counting here)
+for i in range(10):
+    print(i)
+    
+print("--------------------------")
+    
+for x in "banana":
+    print(x)
+
+print("--------------------------")
+
+fruits = ["apple", "banana", "Cherry"]
+for x in fruits:
+    print(x)
+    
