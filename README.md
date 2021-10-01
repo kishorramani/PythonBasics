@@ -57,7 +57,7 @@ https://pypi.org/
 
 1: numpy - numerical py [it's include mathematical related operation]
 
-# To install numpy packages
+- To install numpy packages
 !pip install numpy (do not use ! for cmd install)(! is used for colab install)
 
 inport nummpy as np
@@ -66,11 +66,11 @@ np.sqrt(124848762844848)
 
 2: Pandas - Python data manipulation library
 
-# To install pandas packages - data manipulation packages
+- To install pandas packages - data manipulation packages
 !pip install pandas
 
 3: Matplotlib - data visulization library
 Pi-chart, bar chart, etc
 
-# To install matplotlib packages
+- To install matplotlib packages
 !pip install matplotlib
