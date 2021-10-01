@@ -41,3 +41,36 @@ Part 6 - Dictionaries,
 
 Learn python from this site
 https://www.w3schools.com/python/default.asp
+
+-------------------------------------------------
+
+Day 3 Learn -
+
+Google colab
+https://colab.research.google.com/
+
+Google colab include jupyter notebook
+
+Famous packages
+
+https://pypi.org/
+
+1: numpy - numerical py [it's include mathematical related operation]
+
+# To install numpy packages
+!pip install numpy (do not use ! for cmd install)(! is used for colab install)
+
+inport nummpy as np
+
+np.sqrt(124848762844848)
+
+2: Pandas - Python data manipulation library
+
+# To install pandas packages - data manipulation packages
+!pip install pandas
+
+3: Matplotlib - data visulization library
+Pi-chart, bar chart, etc
+
+# To install matplotlib packages
+!pip install matplotlib
